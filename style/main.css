@@ -1,17 +1,22 @@
 /*colors var*/
+
 :root {
     --verde: #16B83E;
     --preto: #141414;
     --azul: #1651B8;
     --amarelo: #FFE11F;
 }
+
 /* reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* body */
+
 body {
     background: var(--preto);
     font-family: 'Arial', Times, serif;
@@ -19,6 +24,7 @@ body {
 }
 
 /*head*/
+
 header .container {
     display: flex;
     flex-direction: row;
@@ -48,6 +54,7 @@ header nav a:hover {
 }
 
 /*banner*/
+
 .filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-banner.jpg') no-repeat center;
@@ -70,6 +77,8 @@ header nav a:hover {
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
+/*botao*/
+
 .botao {
     background-color: rgba(0, 0, 0, .50);
     border: none;
@@ -89,6 +98,8 @@ header nav a:hover {
 .botao i {
     margin-right: 8px;
 }
+
+/*cards*/
 
 .container {
     margin-left: 20px;
@@ -111,16 +122,22 @@ header nav a:hover {
     cursor: pointer;
 }
 
+/*carousel*/
+
 .carrosel-filmes {
     margin-top: 5px;
 }
+
+/*catalogo*/
 
 .catalogo {
     margin-top: 15px;
     margin-right: 10px;
 }
 
-footer{
+/*rodape*/
+
+footer {
     background-color: var(--preto);
     color: white;
     text-align: center;
@@ -128,18 +145,16 @@ footer{
     padding: 5px;
 }
 
-footer a{
+footer a {
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
     color: var(--verde);
-
 }
-
 
 /* Media Queries */
 
