@@ -131,8 +131,12 @@ header nav a:hover {
 /*catalogo*/
 
 .catalogo {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 10px;
+}
+.catalogo h2{
+    margin-bottom: 10px;
+    color: #AAA;
 }
 
 /*footer*/
