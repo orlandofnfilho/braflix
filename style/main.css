@@ -138,24 +138,54 @@ header nav a:hover {
 /*rodape*/
 
 footer {
-    background-color: var(--preto);
-    color: white;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.836);
+    padding: 50px;
+    align-items: center;
     font-size: 0.8;
-    padding: 5px;
+    margin-top: 38px;
 }
 
-footer a {
-    color: white;
-    font-weight: bolder;
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+    list-style: none;
+    font-size: 0.8em;
     text-decoration: none;
 }
 
-footer a:hover {
-    text-decoration: underline;
+footer ul li {
+    margin-right: 10px;
+    color: #AAA;
+    text-decoration: none;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+#footer-link {
+    color: #AAA;
+    display: inline;
+    text-decoration: none;
+}
+#footer-link:hover{
     color: var(--verde);
 }
 
+#copyright-footer {
+    margin-top: 30px;
+    margin-bottom: 1px;
+}
+#sociais a{
+    color: #AAA;
+}
+
+#sociais a:hover{
+    color: var(--verde);
+
+}
 /* Media Queries */
 
 @media screen and (max-width:700px) {
