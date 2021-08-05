@@ -3,5 +3,5 @@
 </h1>
 
 <h3 align="center">
-   <a href="https://braflix.netlify.app/">Acessar</a>
+   <a href="https://braflix.netlify.app/">Deploy</a>
 </h3>
