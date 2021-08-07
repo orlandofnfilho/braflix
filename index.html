@@ -39,16 +39,30 @@
                 <p class="descricao">A vida de Elis Regina, uma das melhores cantoras do Brasil, e sua carreira marcada
                     por altos e baixos.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button role="button" class="botao" onclick="assistir()">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
                     <!--botao-->
-                    <button role="button" class="botao">
+                    <button role="button" class="botao" id="myBtn">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
                     <!--.botao-->
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Cantora desde a infância, Elis Regina Carvalho Costa (Andreia Horta) entra na vida adulta
+                                deixando o Rio Grande do Sul para espalhar seu talento pelo Brasil a partir do Rio de
+                                Janeiro. Em rápida ascensão, ela logo conquista uma legião de fãs, entre eles o famoso
+                                compositor e produtor Ronaldo Bôscoli (Gustavo Machado), com quem acaba se casando.
+                                Estrela de TV, polêmica, intensa e briguenta, a "Pimentinha" não tarda a ser reconhecida
+                                como a maior voz do Brasil, em carreira marcada por altos e baixos.</p>
+
+                        </div>
+                        <!--.modal-content-->
+                    </div>
+                    <!--.modal-->
                 </div>
                 <!--.botoes-->
             </div>
