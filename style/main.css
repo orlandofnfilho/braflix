@@ -130,9 +130,9 @@ header nav a:hover {
 
 /*catalogo*/
 
-.catalogo {
-    margin-top: 10px;
-    margin-right: 10px;
+.catalogo .container {
+    display: inline-table;
+    width: 100%;
 }
 
 .catalogo h2 {
@@ -151,7 +151,6 @@ footer {
     align-items: center;
     font-size: 0.8;
     margin-top: 38px;
-
 }
 
 footer ul {
@@ -160,6 +159,8 @@ footer ul {
     list-style: none;
     font-size: 0.8em;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 footer ul li {
@@ -188,6 +189,7 @@ footer ul li:last-child {
 }
 
 #sociais a {
+    margin-right: 5px;
     color: #AAA;
 }
 
@@ -206,7 +208,6 @@ footer ul li:last-child {
         margin-top: 5px;
         width: 300px;
     }
-   
 }
 
 @media screen and (min-width:1000px) {
