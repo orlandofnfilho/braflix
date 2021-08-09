@@ -3,11 +3,7 @@
 </h1>
 
 <h3 align="center">
-   Online Demo
-</h3>
-
-<h3 align="center">
-   <a href="https://braflix.netlify.app/">https://braflix.netlify.app/</a>
+   <a href="https://braflix.netlify.app/">Online Demo</a>
 </h3>
 
 <h4 align="center"> 
